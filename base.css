@@ -1,0 +1,10 @@
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  top: -.25em;
+  vertical-align: baseline;
+}
+.no-wrap {
+    white-space: nowrap;
+}
