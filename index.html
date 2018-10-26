@@ -26,14 +26,14 @@
 </head>
 <body>
     
-    <header class="global-header">
-        <ul class="nav-list">
-            <li class="item">About</li>
-            <li class="item">Services</li>
-            <li class="item">Useful Links</li>
-            <li class="item">Contact us</li>
-        </ul>      
-    </head>
+<header class="global-header">
+    <ul class="nav-list">
+        <li class="item">About</li>
+        <li class="item">Services</li>
+        <li class="item">Useful Links</li>
+        <li class="item">Contact us</li>
+    </ul>      
+</header>
 
 <div class="container">
     <div class="row">
@@ -44,18 +44,18 @@
         <div class="col-md-12">
             <h1>Regex</h1>
             <p>This will match a string that is exactly 8 characters long that starts with exactly four letters and is followed by four numbers:</p>
-<p>/^[a-z]{4}\d{4}$/i</p>
-<p>This could also be written as:</p>
-<p>/^[A-Za-z]{4}\d{4}$/</p>
-<p>with the case insensitivity placed inline.</p>
-<p>^ matches the beginning of the string</p>
-<p>[a-z] matches the letters from lower case a to lower case z</p>
-<p>{4} matches the previous selection 4 times ([a-z][a-z][a-z][a-z] but in fewer characters)</p>
-<p>\d matches digits (equivalent to [0-9])</p>
-<p>{4} is as above (\d\d\d\d but in fewer characters)</p>
-<p>$ matches the end of the string</p>
-<p>i is the case-insensitivity flag so that [a-z] matches for capital letters as well.</p>
-<p>It should also be noted that this will not match for special characters such as é or à as they are not in the range [a-z].</p>
+            <p>/^[a-z]{4}\d{4}$/i</p>
+            <p>This could also be written as:</p>
+            <p>/^[A-Za-z]{4}\d{4}$/</p>
+            <p>with the case insensitivity placed inline.</p>
+            <p>^ matches the beginning of the string</p>
+            <p>[a-z] matches the letters from lower case a to lower case z</p>
+            <p>{4} matches the previous selection 4 times ([a-z][a-z][a-z][a-z] but in fewer characters)</p>
+            <p>\d matches digits (equivalent to [0-9])</p>
+            <p>{4} is as above (\d\d\d\d but in fewer characters)</p>
+            <p>$ matches the end of the string</p>
+            <p>i is the case-insensitivity flag so that [a-z] matches for capital letters as well.</p>
+            <p>It should also be noted that this will not match for special characters such as é or à as they are not in the range [a-z].</p>
 
         </div>
     </div>
