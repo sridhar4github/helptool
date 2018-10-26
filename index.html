@@ -3,6 +3,21 @@
 <head>
     <title>Help Tool</title>
     <style>
+        ul,li {
+            list-style: none;
+        }
+        .global-header{
+            background-color: #f7f7f7;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 80px;
+        }
+        .global-header .nav-list .item {
+            color: #006fcf;
+            display: inline-block;
+            padding: 0 10px;
+        }
         .col-md-12 {
             padding: 0 15px 40px;
             border-bottom: 1px solid #002663;
@@ -10,6 +25,15 @@
     </style>
 </head>
 <body>
+    
+    <header class="global-header">
+        <ul class="nav-list">
+            <li class="item">About</li>
+            <li class="item">Services</li>
+            <li class="item">Useful Links</li>
+            <li class="item">Contact us</li>
+        </ul>      
+    </head>
 
 <div class="container">
     <div class="row">
